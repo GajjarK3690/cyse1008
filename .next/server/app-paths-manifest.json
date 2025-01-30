@@ -1,0 +1,7 @@
+{
+  "/auth/firebase/sign-up/page": "app/auth/firebase/sign-up/page.js",
+  "/auth/firebase/verify/page": "app/auth/firebase/verify/page.js",
+  "/dashboard/page": "app/dashboard/page.js",
+  "/(home)/page": "app/(home)/page.js",
+  "/auth/firebase/sign-in/page": "app/auth/firebase/sign-in/page.js"
+}
