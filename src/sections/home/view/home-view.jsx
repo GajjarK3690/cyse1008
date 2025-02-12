@@ -1,5 +1,6 @@
 'use client';
 
+
 import Stack from '@mui/material/Stack';
 
 import { BackToTop } from 'src/components/animate/back-to-top';
@@ -36,7 +37,9 @@ export function HomeView() {
       
       <BackToTop />
 
-      <HomeHeroCYSE1008 /> {/* Here I am!  This inserts this code here */}
+      <HomeHeroCYSE1008 /> {/* Here I am!  This inserts this code here *//*<div>Hello World</div>*/
+      
+      }
 
       {/* <Stack sx={{ position: 'relative', bgcolor: 'background.default' }}>
         <HomeMinimal />
