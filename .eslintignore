@@ -34,3 +34,5 @@ public/*
 
 # misc
 **/jsconfig.json
+
+**/src/sections/home/components/extended-euclidean-algorithm.jsx

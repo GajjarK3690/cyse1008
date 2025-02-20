@@ -1,12 +1,14 @@
 import { useState } from 'react';
-
 import Box from '@mui/material/Box';
-import Button from '@mui/material/Button';/** */
+import Button from '@mui/material/Button';
+import ExtendedEuclideanAlgorithm from "./components/extended-euclidean-algorithm"; // Correct Import
+
+/** HomeHeroCYSE1008 Component */
 export function HomeHeroCYSE1008() {
   const [count, setCount] = useState(0);  // State to track button clicks
+
   return (
-  <>
-  <div>
+    <div>
       <h1>Welcome to HomeHeroCYSE1008</h1>
       <Box
         sx={{
@@ -30,13 +32,9 @@ export function HomeHeroCYSE1008() {
       >
         Clicked {count} times
       </Button>
+
+      {/* Integrating Extended Euclidean Algorithm Component */}
+      <ExtendedEuclideanAlgorithm />
     </div>
-  
-
-
-    
-      
-
-  </>
   );
 }
